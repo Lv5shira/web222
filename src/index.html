@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Desert</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chilanka&family=Oswald:wght@500&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/5bd2965660.js" crossorigin="anonymous"></script>
+    <!--Paste link of font-->
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="../images/logo.png" width="125px" />
+            </a>
+            <!--IMAGE LOGO-->
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" id="home"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li>
+                <a href="#" id="product">Products</a>
+                <div class="subproduct">
+                  <ul>
+                    <li>
+                      <a href="#" id="men">Men</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#" id="women">Women</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li id="about">
+                <a href="#">About</a>
+              </li>
+              <li id="contact">
+                <a href="contact.html">Contact</a>
+              </li>
+              <li id="account">
+                <a href="#">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" id="cart">
+            <img src="../images/cart.png" width="30px" heigh="30px" />
+          </a>
+        </div>
+        <div class="row" id="new">
+          <div class="col2">
+            <h1>
+              New Release
+            </h1>
+            <a href="#" class="btn" id="releases">Buy Now &#8680;</a>
+            <!--Toptal.com check symbols-->
+          </div>
+          <div class="col2">
+            <img src="../images/featured shoes.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- On-sale Items --->
+    <div class="categories">
+      <div class="male" id="male">
+        <div class="small-container">
+          <h2 class="title" id="featured">Featured Products</h2>
+          <div class="row">
+            <div class="col3">
+              <a href="#" id="but1">
+                <img src="../images/1624.jpg" />
+                <h4>Blue Running Shoes</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$199</p>
+              </a>
+            </div>
+            <div class="col3">
+              <a href="#" id="but2">
+                <img src="../images/1627.jpg" />
+                <h4>Soccer Shoes</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$600</p>
+              </a>
+            </div>
+            <div class="col3">
+              <a href="#" id="but3">
+                <img src="../images/7529.jpg" />
+                <h4>Grey Sneakers</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$199</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--Featured Items-->
+        <div class="small-container">
+          <h2 class="title" id="sale">On-Sale</h2>
+          <div class="row">
+            <div class="col4">
+              <a href="#" id="but4">
+                <img src="../images/3800.jpg" />
+                <h4>Blue Sneakers</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p><del>$500</del> <ins>$199</ins></p>
+              </a>
+            </div>
+            <div class="col4">
+              <a href="#" id="but5">
+                <img src="../images/Shoe.jpg" />
+                <h4>Black Running Shoes</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p><del>$800</del> <ins>$599</ins></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Brands-->
+      <div class="brands" id="brand">
+        <div class="small-container">
+          <div class="row">
+            <div class="col5">
+              <a href="https://www.nike.com/ca/">
+                <img src="../images/Nike.png" />
+              </a>
+            </div>
+            <div class="col5">
+              <a href="https://www.adidas.ca/en">
+                <img src="../images/Adidas.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Female Row -->
+      <div class="female" id="female">
+        <div class="small-container">
+          <h2 class="title">Women</h2>
+          <div class="row">
+            <div class="col3">
+              <a href="#" id="but6">
+                <img src="../images/8674.jpg" />
+                <h4>Pink Heels</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$399</p>
+              </a>
+            </div>
+
+            <div class="col3">
+              <a href="#" id="but7">
+                <img src="../images/pink shoes.jpg" />
+                <h4>Pink Shoes</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$99</p>
+              </a>
+            </div>
+
+            <div class="col3">
+              <a href="#" id="but8">
+                <img src="../images/pink sport shoes.jpg" />
+                <h4>Pink Sport Shoes</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$400</p>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col3">
+              <a href="#" id="but9">
+                <img src="../images/Blue Heels.jpg" />
+                <h4>Blue Heels</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$550</p>
+              </a>
+            </div>
+
+            <div class="col3">
+              <a href="#" id="but10">
+                <img src="../images/Heels.jpg" />
+                <h4>Heels</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>$800</p>
+              </a>
+            </div>
+
+            <div class="col3">
+              <a href="#" id="but11">
+                <img src="../images/White Shoes.jpg" />
+                <h4>White Boots</h4>
+                <!-- stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>$999</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Each item-->
+    <div class="inv" id="inv">
+      <!--New Release-->
+      <div class="small-container" id="newrelease">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/featured shoes.png" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Red Running Shoes</h1>
+            <h4>$600</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Red Shoes made by Nike</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv1">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/1624.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Blue Running Shoes</h1>
+            <h4>$199</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Blue Shoes made by Nike</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv2">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/1627.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Soccer Shoes</h1>
+            <h4>$600</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Colorful Soccer Shoes</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv3">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/7529.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Grey Sneakers</h1>
+            <h4>$199</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Comfortable Grey Sneakers</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv4">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/3800.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Blue Sneakers</h1>
+            <h4><del>$500</del> <ins>$199</ins></h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Clean Blue Sneakers</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv5">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/Shoe.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Black Running Shoes</h1>
+            <h4><del>$800</del><ins>$699</ins></h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Cool looking Black Shoes</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv6">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/8674.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Pink Heels</h1>
+            <h4>$399</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Pink Heels, good for attending parties</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv7">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/pink shoes.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Pink Shoes</h1>
+            <h4>$99</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Pink Shoes good for casual wear and sports</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv8">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/pink sport shoes.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Pink Sport Shoes</h1>
+            <h4>$400</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Comfortable Sport shoes in pink</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv9">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/Blue Heels.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Blue Heels</h1>
+            <h4>$550</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Blue Heels good for attending parties</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv10">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/Heels.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>Heels</h1>
+            <h4>$800</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Fancy Heels</p>
+          </div>
+        </div>
+      </div>
+      <div class="small-container" id="inv11">
+        <div class="row">
+          <div class="col2">
+            <img src="../images/White Shoes.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h1>White Shoes</h1>
+            <h4>$999</h4>
+            <select>
+              <option>5.5</option>
+              <option>6</option>
+              <option>6.5</option>
+              <option>7</option>
+              <option>7.5</option>
+              <option>8</option>
+              <option>8.5</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="#" class="btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>White shoes good for casual wear</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col1">
+            <h3>Follow our Instagram</h3>
+            <a href="https://www.instagram.com/"> <img src="../images/Instagram.png" width=""/></a>
+          </div>
+          <div class="footer-col2">
+            <h3>Subscribe</h3>
+            <form action="https://formspree.io/xeqrdpne" method="POST">
+              <label class="footer-label">
+                Your email:
+                <input type="email" name="Subscribe" />
+              </label>
+              <!-- your other form fields go here -->
+
+              <button type="submit" class="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

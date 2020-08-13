@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Desert</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="contact.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chilanka&family=Oswald:wght@500&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/5bd2965660.js" crossorigin="anonymous"></script>
+    <!--Paste link of font-->
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="../images/logo.png" width="125px" />
+            </a>
+            <!--IMAGE LOGO-->
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" id="home"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li id="about">
+                <a href="#">About</a>
+              </li>
+              <li id="contact">
+                <a href="contact.html">Contact</a>
+              </li>
+              <li id="account">
+                <a href="#">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" id="cart">
+            <img src="../images/cart.png" width="30px" heigh="30px" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <form id="form" method="post" action="http:://httpbin.org/post">
+        <label>Your Name:</label>
+        <input name="Name" type="text" class="text" placeholder="Your Name" required /><br />
+        <label>Your Email:</label>
+        <input name="email" type="email" class="text" placeholder="Your Email" required /><br />
+        <label>Your Address:</label>
+        <input name="Address" type="text" class="text" placeholder="Your Address" required /><br />
+        Your City:
+        <input list="City" name="City" class="text" placeholder="Your City" required /><br />
+        <datalist id="City">
+          <option value="Montreal"> Montreal</option>
+          <option value="Ottawa"> Ottawa</option>
+          <option value="Quebec City"> Quebec City</option>
+          <option value="Toronto"> Toronto</option>
+          <option value="Vancouver"> Vancouver</option>
+        </datalist>
+        Your Postal Code:
+        <input
+          name="Postal Code"
+          type="text"
+          class="text"
+          placeholder="Postal Code"
+          pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
+          required
+        /><br />
+        This is about:
+        <br />
+        <input type="radio" id="question" name="problem" >
+        <label for="question">Questions</label></br>
+        <input type="radio" id="comment" name="problem" >
+        <label for="comment" >Comment</label></br>
+        <input type="radio" id="order" name="problem" >
+        <label for="order">Order</label></br>
+        <div class="orderno" id="orderno">
+          <input type="text" class="text" placeholder="Order Number" required /><br />
+        </div>
+        Additional Information:
+        <input name="Your message" type="text" class="text" placeholder="Message" required /><br />
+        <input type="submit" class="submit" value="Submit" />
+      </form>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col1">
+            <h3>Follow our Instagram</h3>
+            <a href="https://www.instagram.com/"> <img src="../images/Instagram.png" width=""/></a>
+          </div>
+          <div class="footer-col2">
+            <h3>Subscribe</h3>
+            <form action="https://formspree.io/xeqrdpne" method="POST">
+              <label class="footer-label">
+                Your email:
+                <input type="email" name="Subscribe" />
+              </label>
+              <!-- your other form fields go here -->
+
+              <button type="submit" class="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
